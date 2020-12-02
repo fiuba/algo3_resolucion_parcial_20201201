@@ -1,5 +1,6 @@
 @startuml
 
+hide footbox
 title Un remolque carga 3 personas en fase normal y lanaza un error
 
 actor User

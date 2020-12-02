@@ -1,5 +1,6 @@
 @startuml
 
+hide footbox
 title Un remolque carga 2 personas en fase normal la cantidad de personas es 2
 
 actor User

@@ -39,6 +39,12 @@ Para todos los casos las pruebas que forman parte del enunciado pueden ser modif
 
 ### Diagrama de clases
 
+![dc](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/fiuba/algo3_resolucion_parcial_20201201/master/diagrams/dc.plantuml)
+
 ### Diagrama de secuencia (máximo alcanzado)
 
+![ds1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/fiuba/algo3_resolucion_parcial_20201201/blob/master/diagrams/diagrama_secuencia_carga_fase_normal.plantuml)
+
 ### Diagrama de secuencia (máximo NO alcanzado)
+
+![ds2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/fiuba/algo3_resolucion_parcial_20201201/blob/master/diagrams/diagra_secuencia_caga_fase_normal_menos_que_maximo.plantuml)

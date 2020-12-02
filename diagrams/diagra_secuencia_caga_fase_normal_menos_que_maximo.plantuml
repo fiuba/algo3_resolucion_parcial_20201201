@@ -12,34 +12,4 @@ Remolque -> Etapa: cargarCantidadPasajeros(2)
 User -> Remolque: cantidadPasajeros()
 return 2
 
-/'
- ' class Etapa {
- '         - maximo : Int
- '         - personas : Int
- ' 
- '         + maximo( unMaximoPasajero : Int): Etapa
- '         
- '         + cargarCantidadPasajeros( cantidad : Int)
- '         
- ' }
- ' 
- ' class Remolque {
- '         tipo( e : Etapa) : Remolque
- ' 
- '         + cargarCantidadPasajeros( c : Int)
- '         + cantidadPasajeros() : Int
- ' }
- ' 
- ' class NoPuedeCargarPasajeros {}
- ' 
- ' class Error {}
- ' 
- ' Remolque *- Etapa
- ' 
- ' Etapa .right.> NoPuedeCargarPasajeros: <<instanciate>>
- ' 
- ' Error <|-- NoPuedeCargarPasajeros
- '/
-
-
 @enduml

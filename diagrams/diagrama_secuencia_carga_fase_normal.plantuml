@@ -9,37 +9,6 @@ return etapa
 User -> Remolque **: crear( etapa )
 User -> Remolque: cargarCantidadPasajeros(3)
 Remolque -> Etapa: cargarCantidadPasajeros(3)
-Etapa -> Etapa: verificarMaximo(3)
 Etapa -> NoPuedeCargarPasajeros **: signal
-
-/'
- ' class Etapa {
- '         - maximo : Int
- '         - personas : Int
- ' 
- '         + maximo( unMaximoPasajero : Int): Etapa
- '         
- '         + cargarCantidadPasajeros( cantidad : Int)
- '         
- ' }
- ' 
- ' class Remolque {
- '         tipo( e : Etapa) : Remolque
- ' 
- '         + cargarCantidadPasajeros( c : Int)
- '         + cantidadPasajeros() : Int
- ' }
- ' 
- ' class NoPuedeCargarPasajeros {}
- ' 
- ' class Error {}
- ' 
- ' Remolque *- Etapa
- ' 
- ' Etapa .right.> NoPuedeCargarPasajeros: <<instanciate>>
- ' 
- ' Error <|-- NoPuedeCargarPasajeros
- '/
-
 
 @enduml

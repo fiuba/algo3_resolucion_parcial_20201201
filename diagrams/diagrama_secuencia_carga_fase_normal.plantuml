@@ -7,7 +7,8 @@ actor User
 
 User -> Etapa **: maximo(2)
 return etapa
-User -> Remolque **: crear( etapa )
+User -> Remolque **: tipo( etapa )
+return remolque
 User -> Remolque: cargarCantidadPasajeros(3)
 Remolque -> Etapa: cargarCantidadPasajeros(3)
 Etapa -> NoPuedeCargarPasajeros **: signal
